@@ -1,0 +1,9 @@
+{
+  "tranfer-accounts":[{
+    "fullName": "Mary Johnson",
+    "debitFrom": "EBQ12123423456",
+    "crebitTo": "EBQ13123423456",
+    "amount": "100",
+    "description": "Admin user triggered auto transfer with amount"
+  }]   
+}
