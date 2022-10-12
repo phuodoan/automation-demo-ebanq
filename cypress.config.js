@@ -14,9 +14,10 @@ module.exports = defineConfig({
     supportFile: 'cypress/support/e2e.js',
     baseUrl: 'https://demo.ebanq.com',
     specPattern: "cypress/e2e/features/*.feature",
-    // chromeWebSecurity: false,
     videosFolder: 'cypress/reports/final/videos',
     screenshotsFolder: 'cypress/reports/final/screenshots',
+    videoUploadOnPasses: false,
+    screenshotOnRunFailure: true,
     async setupNodeEvents(on, config) {
       const bundler = createBundler({
         plugins: [createEsbuildPlugin(config)],

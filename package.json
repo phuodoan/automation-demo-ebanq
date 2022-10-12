@@ -3,14 +3,15 @@
         "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
         "cypress": "^10.10.0",
         "cypress-xpath": "^2.0.1",
-        "esbuild": "^0.15.10"
+        "esbuild": "^0.15.10",
+        "multiple-cucumber-html-reporter": "^3.0.1"
     },
     "scripts": {
         "cypress:open": "cypress open",
         "cy:run:chrome": "cypress run --browser chrome",
         "cy:run:firefox": "cypress run --browser firefox",
         "cy:run:edge": "cypress run --browser edge",
-        "cy:run:electron": "cypress run --spec \"**/*.features\""
+        "cy:run:electron": "cypress run"
     },
     "dependencies": {
         "@badeball/cypress-cucumber-preprocessor": "^13.0.2"
