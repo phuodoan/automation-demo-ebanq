@@ -3,8 +3,7 @@
         "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
         "cypress": "^10.10.0",
         "cypress-xpath": "^2.0.1",
-        "esbuild": "^0.15.10",
-        "multiple-cucumber-html-reporter": "^3.0.1"
+        "esbuild": "^0.15.10"
     },
     "scripts": {
         "cypress:open": "cypress open",
