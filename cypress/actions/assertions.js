@@ -1,9 +1,3 @@
-import iHomePage from "../interfaces/ihomepage";
-
-Cypress.Commands.add('verifyLoginSuccess',()=>{
-    //check the profile page is exist
-    cy.get(iHomePage.linkProfilePage).should("exist")
-})
 
 Cypress.Commands.add('verifyConfirmationTransferInfo',(fullName, amount, description)=>{
     cy.get('app-confirmation-data-view').within(()=>{

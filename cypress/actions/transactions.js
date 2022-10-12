@@ -31,8 +31,8 @@ Cypress.Commands.add("enterAmount", (amount) => {
 })
 
 //Enter the Description
-Cypress.Commands.add("enterDescription", (description, amount) => {
-  cy.get(iTransaction.txtDescription).clear().type(`${description} ${amount}`)
+Cypress.Commands.add("enterDescription", (description) => {
+  cy.get(iTransaction.txtDescription).clear().type(description)
 })
 
 //Click on the Submit button
