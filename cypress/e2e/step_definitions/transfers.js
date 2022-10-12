@@ -5,6 +5,7 @@ import {
   } from "@badeball/cypress-cucumber-preprocessor";
   
   Given("A web browser is at the bank-demo login page",()=>{
+    cy.viewport(1024,768)
     cy.visit('/log-in')
   })
   When("The user logged in with the username {string} and password {string}",(username, password)=>{
