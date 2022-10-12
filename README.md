@@ -16,7 +16,7 @@ This project is using the Cypress framework to demo for the assessment.
 ```
 ├── cypress
 │   ├── datasets        -- Test data or mock data files
-│   ├── e2e             -- This is where the test is
+│   ├── e2e/features    -- This is where the tests is
 │   ├── interfaces      -- Page objects
 │   ├── actions         -- Page objects
 │   ├── reports         -- Store videos/ screenshots report
