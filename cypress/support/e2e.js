@@ -21,5 +21,6 @@ import '../actions/assertions'
 
 
 // Alternatively you can use CommonJS syntax:
-// require('./commands')
+// require('./commands'
+require('cypress-xpath');
 
